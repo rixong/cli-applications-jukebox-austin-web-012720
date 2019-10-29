@@ -57,3 +57,7 @@ def run(songs)
     end
   end
 end
+
+def run
+  
+end
