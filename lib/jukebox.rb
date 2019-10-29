@@ -53,7 +53,7 @@ def run(songs)
         play(songs)
       when input == 'exit'
         exit_jukebox
-        continue?
+        continue? = false
     end
   end
 end
