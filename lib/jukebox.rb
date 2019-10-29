@@ -43,5 +43,6 @@ def run
   puts 'Please enter a command:
   input = gets.strip
   case input 
-  
+    when input == 'help'
+    
 end
