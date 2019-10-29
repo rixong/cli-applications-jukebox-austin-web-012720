@@ -41,7 +41,7 @@ end
 
 
 def run(songs)
-  loop
+  loop do
     puts "Please enter a command:"
     input = gets.strip
     case input 
