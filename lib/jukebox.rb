@@ -44,5 +44,12 @@ def run
   input = gets.strip
   case input 
     when input == 'help'
-    
+      help
+    when input == 'list'
+      list(songs)
+    when input == 'play'
+      play(songs)
+    when input == 'exit'
+      exit
+      break
 end
