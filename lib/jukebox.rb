@@ -42,7 +42,7 @@ end
 
 def run(songs)
   leave = false
-  until leave
+  until leave == true
     puts 'Please enter a command:'
     input = gets.strip
     case input 
