@@ -41,7 +41,8 @@ end
 
 
 def run(songs)
-  while
+  continue = ''
+  until continue == "exit"
     puts "Please enter a command:"
     input = gets.strip
     case input 
