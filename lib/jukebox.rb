@@ -31,6 +31,7 @@ def play(songs)
     cur_song = songs[input.to_i]
   elsif songs.include?(input)
     cur_song = input
+  else puts 
   
 end
 
