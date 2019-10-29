@@ -41,8 +41,8 @@ end
 
 
 def run(songs)
-  leave = false
-  until leave == true
+  continue = true
+  while continue
     puts 'Please enter a command:'
     input = gets.strip
     case input 
@@ -54,7 +54,7 @@ def run(songs)
         play(songs)
       when input == 'exit'
         exit_jukebox
-        leave = true
+        continue = false
     end
   end
 end
