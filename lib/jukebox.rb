@@ -32,7 +32,6 @@ def play(songs)
   elsif songs.include?(input)
     puts "Playing #{input}"
   else puts "Invalid input, please try again"
-  
 end
 
 def exit_jukebox
@@ -41,9 +40,7 @@ end
 
 
 def run
-  
   while run == true
-  
     puts 'Please enter a command:'
     input = gets.strip
     case input 
@@ -56,7 +53,6 @@ def run
       when input == 'exit'
         exit
         run = false
-      end
-      
-   end
+    end
+  end
 end
