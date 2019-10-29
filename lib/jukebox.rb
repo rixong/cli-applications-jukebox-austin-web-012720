@@ -20,9 +20,7 @@ def help
 end
 
 def list(songs)
-  songs.map {|song, index| puts "#{index}. #"
-  
-  
+  songs.map {|song, index| puts "#{index + 1}. #{song}"
 end
   
   
