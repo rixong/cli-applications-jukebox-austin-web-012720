@@ -40,7 +40,7 @@ def exit_jukebox
 end
 
 
-def run
+def run(songs)
   while run == true
     puts 'Please enter a command:'
     input = gets.strip
