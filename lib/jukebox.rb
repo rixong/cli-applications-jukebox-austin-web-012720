@@ -52,7 +52,7 @@ def run
       when input == 'play'
         play(songs)
       when input == 'exit'
-        exit
+        
         run = false
     end
   end
