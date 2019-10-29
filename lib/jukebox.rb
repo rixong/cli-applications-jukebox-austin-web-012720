@@ -44,16 +44,19 @@ def run
   
   while run == true
   
-  puts 'Please enter a command:'
-  input = gets.strip
-  case input 
-    when input == 'help'
-      help
-    when input == 'list'
-      list(songs)
-    when input == 'play'
-      play(songs)
-    when input == 'exit'
-      exit
-      run = false
+    puts 'Please enter a command:'
+    input = gets.strip
+    case input 
+      when input == 'help'
+        help
+      when input == 'list'
+        list(songs)
+      when input == 'play'
+        play(songs)
+      when input == 'exit'
+        exit
+        run = false
+      end
+      
+   end
 end
