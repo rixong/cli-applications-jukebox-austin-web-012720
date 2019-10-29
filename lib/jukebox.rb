@@ -19,7 +19,9 @@ def help
   puts "- exit : exits this program"
 end
 
-def list(songs) 
+def list(songs)
+  songs.map {|song, index| puts "#{index}. #"
+  
   
 end
   
