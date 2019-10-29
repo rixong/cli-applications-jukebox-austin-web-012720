@@ -29,7 +29,8 @@ def play(songs)
   input = gets.strip
   if input.to_i > 0 || input.to_i <= songs.length
     cur_song = songs[input.to_i]
-  elsif songs.detects(input) 
+  elsif songs.include?(input)
+    cur_song = input
   
 end
 
